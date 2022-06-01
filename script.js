@@ -100,7 +100,7 @@ function testSpeacial(){
     return speacialtest;
 }
 
- //Function used to take input from the previous functions and generate a password using random numbers
+ // generate random numbers
 function generatePassword(){
   determineLength();
   console.log(passwordLength);
